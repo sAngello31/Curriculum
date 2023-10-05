@@ -1,0 +1,11 @@
+Curriculum Vitae
+Datos Personales:
+    Nombre
+    Email:
+    Telefono
+    Direccion
+Educacion
+    Grado:
+    Institucion
+Proyectos:
+Habilidades
