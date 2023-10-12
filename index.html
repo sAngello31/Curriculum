@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Angello de Jesús Bravo Mera">
     <meta name="description" content="Estudiante de Ingeniería en Ciencias de la Computación. Conocimientos intermedios en desarrollo web y móvil y conocimientos básicos en visión artificial">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Onest:wght@300;400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-..." crossorigin="anonymous">
+
     <title>Curriculum Vitae</title>
 </head>
 <body>
@@ -13,27 +19,48 @@
     </header>
     <nav>
         <ul>
-            <li><a href="#">Datos Personales</a></li>
-            <li><a href="#">Educación</a></li>
-            <li><a href="#">Proyectos</a></li>
-            <li><a href="#">Habilidades</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li><a href="#datosPersonales">Datos Personales</a></li>
+            <li><a href="#educacion">Educación</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#contacto">Contacto</a></li>
         </ul>
     </nav>
     <section id="datosPersonales">
-        <h2>Datos Personales</h2>
-        <p>
-            Nombre: <span>Angello de Jesús Bravo Mera</span>
-        </p>
-        <p>
-            Dirección: <span>Alborada 7ma Etapa</span>
-        </p>
-        <p>
-            Teléfono: <span>+593 96 964 8597</span>
-        </p>
-        <p>
-            Correo Electrónico: <span>bravoangelo31@gmail.com</span>
-        </p>
+        <div class="contenido">
+            <h2>Datos Personales</h2>
+            <img src="media/img/daniela_landeta.JPG" alt="" class="photoUser">
+            <p>
+                <span>Angello de Jesús Bravo Mera</span>
+            </p>
+            <p>
+                Estudiante de Ingeniería en Ciencias de la Computación - ESPOL
+            </p>
+            <p>
+                <span>adbravo@espol.edu.ec</span>
+            </p>
+            <div class="redes">
+
+                <div class="btn">
+                    <a href="https://github.com/sAngello31" target="_blank">
+                        <i class="fa-brands fa-github fa-2xl"></i>
+                    </a>
+                </div>
+
+                <div class="btn">
+                    <a href="https://www.instagram.com/angello.rar/" target="_blank">
+                        <i class="fa-brands fa-instagram fa-2xl"></i>
+                    </a>
+                </div>
+
+                <div class="btn">
+                    <a href="https://twitter.com/SrAngello" target="_blank">
+                        <i class="fa-brands fa-twitter fa-2xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
     </section>
 
     <section id="educacion">
@@ -67,10 +94,71 @@
     
     <section id="habilidades">
         <h2>Habilidades</h2>
-        <ul>
-            <li>Javascript: <span>Básico</span></li>
-            <li>Python: <span>Intermedio</span></li>
-        </ul>
+
+        <div class="contenedor-tecnologias">
+            <ul>
+                <li>
+                    <div>
+                        <h3>Javascript</h3>
+                        <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" alt="" width="40" height="40">
+                        <p>Nivel: <span>Básico</span></p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h3>Python</h3>
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="" width="40" height="40">
+                        <p>Nivel: <span>Intermedio</span></p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h3>Java</h3>
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="opencv" width="40" height="40" alt="">
+                        <p>Nivel: <span>Intermedio</span></p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h3>DJango</h3>
+                        <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40" height="40"/>
+                        <p>Nivel: <span>Básico</span></p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h3>CV2</h3>
+                        <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="" width="40" height="40">
+                        <p>Nivel: <span>Básico</span></p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h3>Flutter</h3>
+                        <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="" width="40" height="40">
+                        <p>Nivel: <span>Básico</span></p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="video">
+        <h2>Video DEMO</h2>
+        <video src=""></video>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9482.77341751904!2d-79.96260111547262!3d-2.1479103340197017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d72f925e5bfdb%3A0x327cdb9f7f4ba3b2!2sEscuela%20Superior%20Polit%C3%A9cnica%20del%20Litoral%20(ESPOL)!5e0!3m2!1ses-419!2sec!4v1697036924696!5m2!1ses-419!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <form>
+            <label for="nombre">Nombre: </label> <input type="text" name="nombre" required="required"> <br>
+            <label for="email">Correo Electrónico: </label><input type="text" name="email" required="required"> <br>
+            <label for="mensaje">Mensaje: </label><textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea> <br>
+            <button type="submit" name="enviar">Enviar</button>
+        </form>
     </section>
 
     <footer>

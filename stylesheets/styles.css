@@ -1,0 +1,90 @@
+*{
+    font-family: 'Onest', sans-serif;
+}
+
+header{
+    text-align: center;
+    padding: 10px;
+}
+
+li{
+    list-style-type: none;
+}
+
+/* Menu Superior */
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+ul a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav{
+    position: sticky;
+    top: 0%;
+    background-color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    z-index: 999;
+}
+
+/* Datos Personales */
+
+#datosPersonales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+#datosPersonales span:first-child{
+    font-weight: bold;
+}
+
+.contenido{
+    display: block;
+    text-align: center;
+}
+
+.photoUser{
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.redes{
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.btn{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn i{
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover .fa-brands{
+    color: #ff6600;
+    scale: 1.2;
+}

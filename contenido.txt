@@ -9,3 +9,8 @@ Educacion
     Institucion
 Proyectos:
 Habilidades
+
+Paleta: https://colormagic.app/palette/kZZCmew8LcioLcfFOsV2
+iconos: https://fontawesome.com/account
+
+
