@@ -159,7 +159,6 @@ h2{
 
 .card:hover{
     box-shadow: 0 8px 32px 0 rgb(250, 82, 70, 0.37);
-
 }
 
 .grado{
@@ -222,7 +221,7 @@ video{
 #contacto div{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .contacto{
